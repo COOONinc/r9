@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="121" height="121" viewBox="0 0 121 121">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="長方形_1880" data-name="長方形 1880" width="46.168" height="59.998" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="グループ_3381" data-name="グループ 3381" transform="translate(-701 -9132.621)">
+    <g id="楕円形_94" data-name="楕円形 94" transform="translate(701 9132.621)" fill="#5cadd3" stroke="#5cadd3" stroke-width="10">
+      <circle cx="60.5" cy="60.5" r="60.5" stroke="none"/>
+      <circle cx="60.5" cy="60.5" r="55.5" fill="none"/>
+    </g>
+    <g id="グループ_3320" data-name="グループ 3320" transform="translate(738.416 9164.932)">
+      <g id="グループ_3319" data-name="グループ 3319" clip-path="url(#clip-path)">
+        <path id="パス_1725" data-name="パス 1725" d="M92.9,172.075A4.071,4.071,0,0,0,88.826,168H84.859a4.071,4.071,0,0,0-4.071,4.071v2.2H92.9Z" transform="translate(-72.519 -150.808)" fill="#fff"/>
+        <path id="パス_1726" data-name="パス 1726" d="M109.561,98.5a3.464,3.464,0,1,0-3.464-3.464,3.464,3.464,0,0,0,3.464,3.464" transform="translate(-95.237 -82.204)" fill="#fff"/>
+        <path id="パス_1727" data-name="パス 1727" d="M43.8,0H2.363A2.363,2.363,0,0,0,0,2.363V57.635A2.363,2.363,0,0,0,2.363,60H30.029a2.364,2.364,0,0,0,1.671-.692L45.476,45.531a2.364,2.364,0,0,0,.692-1.671V2.363A2.363,2.363,0,0,0,43.8,0M4.727,4.727H41.441V41.5H30.029a2.363,2.363,0,0,0-2.363,2.363V55.271H4.727Zm27.666,47.2V46.223H38.1Z" fill="#fff"/>
+        <rect id="長方形_1875" data-name="長方形 1875" width="13.338" height="2.894" transform="translate(24.081 11.381)" fill="#fff"/>
+        <rect id="長方形_1876" data-name="長方形 1876" width="13.338" height="2.894" transform="translate(24.081 20.063)" fill="#fff"/>
+        <rect id="長方形_1877" data-name="長方形 1877" width="29.15" height="2.894" transform="translate(8.269 29.189)" fill="#fff"/>
+        <rect id="長方形_1878" data-name="長方形 1878" width="21.76" height="2.894" transform="translate(8.269 37.872)" fill="#fff"/>
+        <rect id="長方形_1879" data-name="長方形 1879" width="15.143" height="2.894" transform="translate(8.269 46.554)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>
