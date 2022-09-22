@@ -1,0 +1,332 @@
+/* common */
+
+body:not(.confirm_page) .form_page_button_wrapper {
+	display: none;
+}
+
+.confirm_page .confirm_page_button_wrapper,
+.wpcf7-spinner {
+	display: none;
+}
+
+.wpcf7 {
+	padding-bottom: 100px;
+}
+
+.entry {
+	background-color: #F3F9FC;
+}
+
+.form_wrapper {
+	background-color: #fff;
+	color: #000;
+	padding: 70px 0 90px;
+}
+
+.form h3 {
+	margin-bottom: 40px;
+}
+
+.form_table {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 80px;
+}
+
+.form_table dt,
+.form_table dd {
+	border-bottom: 1px solid #EFEFEF;
+	padding: 40px 0;
+	line-height: 2;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.form_table dt:first-of-type,
+.form_table dd:first-of-type {
+	border-top: 1px solid #EFEFEF;
+}
+
+.form_table dt {
+	width: 300px;
+	padding-left: 2px;
+	display: block;
+}
+
+.form_table dd {
+	width: calc(100% - 300px);
+	white-space: pre-wrap;
+}
+
+.form_table dd>div {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.form_table dd>div>span {
+	width: 47%;
+}
+
+.form_table dd>div:not(:last-child) {
+	margin-bottom: 20px;
+}
+
+.flex_start {
+	align-items: flex-start !important;
+}
+
+.wpcf7-not-valid-tip {
+	display: none;
+}
+
+.wpcf7-form-control-wrap,
+.form_table .address_dd>div>.wpcf7-form-control-wrap {
+	flex: 1;
+}
+
+.form_table dd>div>.wpcf7-form-control-wrap {
+	flex: none;
+}
+
+/* form */
+.wpcf7-form-control:not(.wpcf7-submit):not(.wpcf7-acceptance) {
+	background-color: #EFEFEF;
+	padding: 15px 20px;
+	border-radius: 6px;
+	width: 100%;
+}
+
+.form_table dd>span>.wpcf7-form-control:not(.wpcf7-submit):not(.wpcf7-acceptance) {
+	width: 100%;
+}
+
+input:-webkit-autofill {
+	-webkit-box-shadow: 0 0 0px 1000px #EFEFEF inset;
+}
+
+/* confirm_page */
+
+.confirm_page .wpcf7-form-control:not(.wpcf7-submit) {
+	background-color: #fff;
+}
+
+.confirm_page .form_table dt,
+.confirm_page .form_table dd {
+	padding: 20px 0;
+}
+
+.confirm_page .form_table dd>div {
+	margin-bottom: 0;
+}
+
+.confirm_page .wpcf7-form-control:not(.wpcf7-submit):not(.wpcf7-acceptance) {
+	padding-left: 0;
+}
+
+.confirm_page input:-webkit-autofill {
+	-webkit-box-shadow: 0 0 0px 1000px #FFF inset;
+}
+
+/* form_step */
+.form_step_wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	margin: 0 auto 130px;
+	width: 400px;
+	max-width: 65vw;
+	position: relative;
+}
+
+.form_step_wrapper::before {
+	content: "";
+	position: absolute;
+	height: 1px;
+	width: 100%;
+	background-color: #BCBCBC;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.form_step_wrapper .form_step {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: #BCBCBC;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+.form_step_wrapper .form_step::after {
+	position: absolute;
+	bottom: -40px;
+	white-space: nowrap;
+}
+
+.form_step_wrapper #form_step1::after {
+	content: "情報入力";
+}
+
+.form_step_wrapper #form_step2::after {
+	content: "内容確認";
+}
+
+.form_step_wrapper #form_step3::after {
+	content: "送信完了";
+}
+
+body:not(.confirm_page):not(.thanks) #form_step1,
+body.confirm_page #form_step2,
+body.entry.thanks #form_step3 {
+	background-color: #5CADD3;
+}
+
+.address_mark {
+	margin-right: 20px;
+}
+
+.error {
+	text-align: center;
+	color: red;
+}
+
+.form_page_button_wrapper {
+	text-align: center;
+}
+
+.form_page_button_wrapper .accent_button {
+	margin-bottom: 30px;
+}
+
+/* wpcf7-form-control wpcf7-acceptance */
+.acceptance_wrapper {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.wpcf7-form-control.wpcf7-acceptance a,
+#back_button {
+	display: inline-block;
+	padding-bottom: 2px;
+	border-bottom: 1px solid #000;
+	color: #000;
+}
+
+#back_button {
+	background-color: #fff;
+	color: #777;
+}
+
+/* thanks */
+.thanks .form_wrapper {
+	margin-bottom: 100px;
+}
+
+.thanks .form_wrapper>div {
+	text-align: center;
+}
+
+.thanks .form_wrapper>div>h3 {
+	margin-bottom: 60px;
+	font-weight: 500;
+}
+
+.thanks .form_wrapper>div>p {
+	margin-bottom: 60px;
+}
+
+.thanks .accent_button>* {
+	transform: none;
+
+}
+
+.thanks .accent_button>*>p:not(img):not(.img_wrapper) {
+	transform: none !important;
+}
+
+.thanks .accent_button>*>img,
+thanks .accent_button>*>.img_wrapper {
+	transform: translate(0, -50%) !important;
+}
+
+@media (max-width: 1000px) {
+	.form_wrapper {
+		max-width: 100vw !important;
+	}
+
+	.form_table {
+		margin-bottom: 40px;
+	}
+
+	.form_table dt,
+	.form_table dd {
+		width: 100%;
+	}
+
+	.form_table dt,
+	.form_table dd {
+		padding: 30px 0;
+	}
+
+	.form_table dt {
+		border-bottom: none;
+		padding-bottom: 10px;
+	}
+
+	body .form_table dd {
+		border-top: none !important;
+		padding-top: 10px;
+	}
+
+	.form_table dd>div>span {
+		width: 48%;
+	}
+
+	.form_step_wrapper {
+		margin-bottom: 90px;
+	}
+
+	.confirm_page .form_table dt,
+	.confirm_page .form_table dd {
+		padding: 0;
+	}
+
+	.confirm_page .form_table dt {
+		padding-bottom: 0px;
+		padding-top: 10px;
+	}
+
+	.confirm_page body .form_table dd {
+		padding-top: 0px;
+		padding-bottom: 10px;
+	}
+
+	.confirm_page .wpcf7-form-control:not(.wpcf7-submit):not(.wpcf7-acceptance) {
+		padding: 0 0 10px;
+	}
+
+	.form_wrapper {
+		padding: 40px 0 45px;
+	}
+
+	.thanks .form_wrapper>div>h3,
+	.thanks .form_wrapper>div>p {
+		margin-bottom: 30px;
+	}
+
+	body .new_grad_top .qa_entry_box,
+	.accent_button {
+		width: 70% !important;
+	}
+
+	.thanks .form_wrapper {
+		margin-bottom: 50px;
+	}
+}

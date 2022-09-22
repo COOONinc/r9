@@ -1,0 +1,452 @@
+/* font size */
+.simple_mid_career_top_title > span,
+.strong_mid_career_top_title > span  {
+    font-size: 18rem;
+}
+
+.mid_career .keyword_area .strong_mid_career_top_title span {
+    font-size: 15rem;
+}
+
+.misson_vision_misson_textboxes::after,
+.keyword_figures::after {
+    font-size: 14rem;
+}
+
+.new_grad_top .people_text p {
+    font-size: 10rem;
+}
+
+.new_grad_top .column_title h2  {
+    font-size: 9rem;
+}
+
+.new_grad_top .require_right h2,
+.vision_list_right_number p,
+.large_num,
+.mid_career_top .top_title h1  {
+    font-size: 7rem;
+}
+
+.interview_top_title h1 {
+    font-size: 5.8rem;
+}
+
+.top_title h1,
+.new_grad_top .work_style_title h2,
+.mid_career_top .require_title h2,
+.mid_career_top .ourjob_title h2,
+.mid_career_top .project_title h2,
+.mid_career_top .column_title h2,
+.about_R9_title h2,
+.strengths_title h2,
+.R09_data_title h2,
+.top_column_title > div h2,
+.strong_mid_career_top_title > div > h1,
+.interview_area .work_style_title h2,
+.people_work_style .work_style_title h2 {
+    font-size: 5rem;
+}
+
+.top_title h1,
+.supports_text_left .color_lightgreen_text,
+.work_style_box > div:first-of-type > p:first-of-type,
+.strong_underline_heading_wrapper h2 {
+    font-size: 4.5rem;
+}
+
+.department .title h4,
+.daily_schedule > div > .heading_wrapper > h2,
+.interview_top_title h1::after {
+    font-size: 4rem;
+}
+
+.subcon_title,
+.new_grad_top .our_job h2,
+.new_grad_top .people_part h2,
+.about_R9_business_number p,
+.supports_text_left .color_green_text,
+.simple_mid_career_top_title h1 {
+    font-size: 3rem;
+}
+
+.simple_new_grad_top_title h3,
+.strong_new_grad_top_title h3{
+    font-size: 2.5rem
+}
+
+.recruit_text h2,
+.work_style_box > div:first-of-type > h2 {
+    font-size: 2.4rem;
+}
+.new_grad_top .new_grad_toptext p,
+.new_grad_top .topbottom_left h2,
+.mid_career_top .ourjob_detailsbox h3,
+.ceo_message_title h2,
+.keyword_title h3,
+.profile .box > div:first-of-type > h3,
+.article_single .heading_wrapper h1  {
+    font-size: 2rem;
+}
+
+.simple_heading,
+.underline_heading,
+.category.widget .heading,
+.mid_career .misson_vision_misson_title h3 {
+    font-size: 1.8rem
+}
+
+.subcon_subtitle,
+.new_grad_top .social_cont_textbox h3,
+.new_grad_top .about_us_textbox h2,
+.new_grad_top .top_title p,
+.new_grad_top .require_textbox h3,
+.new_grad_top .column_subtitle h3,
+.mid_career_top .top_page_bottom h2,
+.mid_career_top .require_left h3,
+.mid_career_top .about_us .require_right h3,
+.mid_career_top .ourjob_textbox h2,
+.ceo_name_box .ceo_name_box_big,
+.ceo_name_right p,
+.misson_vision_misson_textbox h3,
+.strengths_middle_text h3,
+.description_below_title h2,
+.simple_mid_career_top_title > div > p,
+.simple_mid_career_top_title > div > span,
+.ewd-ufaq-faq-category-title h3,
+.related_posts_wrapper h3,
+.mid_career_top .menu_wrapper a > span:first-child,
+.mid_career .menu_wrapper a > span:first-child {
+    font-size: 1.5rem;
+}
+
+.recruit_pic_text p,
+.recruit_text h3,
+.number_flow_box > div > div > h4,
+.schedule_list_item > span:nth-of-type(1),
+.other_work_style_list > a > .description_wrapper > div > div > div > h3,
+.department .title h2,
+.occupation_box .sub_heading,
+.about_R9_business > h3 {
+    font-size: 1.4rem;
+}
+
+.simple_table dt,
+.schedule_list_item > div:nth-of-type(1) > h3,
+.schedule_list_item > span:nth-of-type(1),
+.daily_schedule > div > .heading_wrapper > p,
+.long_sentence h3,
+.large_num_title h4,
+.simple_description > .heading_wrapper h4,
+.strong_message_bg_and_img > div:first-of-type > p,
+body .ewd-ufaq-faq-title h4,
+.ewd-ufaq-faq-title-text::before,
+.ewd-ufaq-faq-body::before  {
+    font-size: 1.3rem;
+}
+
+.subcon_part h3,
+.new_grad_top .our_job > h3,
+.new_grad_top .people_part > h3,
+.new_grad_top .work_style_toptext h3,
+.new_grad_top .column_textbox h3,
+.mid_career_top .ver_text p,
+.mid_career_top .ourjob_detailsbox .sub_title,
+.simple_new_grad_top_title p,
+.strong_new_grad_top_title p,
+.ceo_message_box_text h3,
+.ceo_message_textbox h3,
+.vision_list_center h2,
+.value_textbox h3,
+.links_of_company_job_box h4,
+.between_employees_and_partners > p,
+.project_story_box_wrapper h3,
+.simple_project_story_box > div h4,
+.occupation_box h4,
+.strong_underline_heading_wrapper span,
+.top_column_title > div span,
+.thanks .form_wrapper > div > h3,
+.people_work_style .work_style_toptext h3,
+.mid_career_top .column_toppart_text h3,
+.keyword_figure p {
+    font-size: 1.2rem;
+}
+
+.top_title p,
+.new_grad_top .qa_entry_box p,
+.accent_button > * > p,
+#back_button,
+.category.widget .cat-item,
+.new_grad_top .our_job_figurebox h3,
+.mid_career_top .menu_wrapper li ul > li span:first-child,
+.mid_career .menu_wrapper li ul > li span:first-child {
+    font-size: 1.1rem;
+}
+
+.subcon_part p,
+.new_grad_top .top_colum_choice,
+input,
+select,
+.tag.widget .tagcloud .tag-cloud-link,
+.mid_career .department_list .large_num {
+    font-size: 1rem;
+}
+
+.tag.widget .tagcloud .tag-cloud-link {
+    font-size: 1rem!important;
+}
+
+.new_grad_top .topbottom_left p,
+.new_grad_top .work_style_toptext p,
+.new_grad_top .footer_top_name p,
+.new_grad_top .footer_top_menu p,
+.ceo_name_left > p,
+.ceo_name_box .ceo_name_box_color,
+.page_top_menubox p,
+.mid_career_top .details_more p,
+.recruit_text p,
+.recruit_more p,
+.work_style_box > div > span:nth-of-type(3),
+.category.widget .heading::after,
+.header_menu p,
+.mid_career .misson_vision_misson_title p,
+.people_work_style .work_style_toptext p,
+.mid_career_top .column_toppart_text .column_category_box,
+.common_part .column_category_box,
+.mid_career_top .menu_wrapper a > span:last-child,
+.mid_career .menu_wrapper a > span:last-child{
+    font-size: 0.9rem;
+}
+
+.footer_bottom,
+.new_grad_top .people_box_text .busyo,
+.new_grad_top .work_style_box_text_bk p,
+.new_grad_top .work_style_box_text .busyo,
+.new_grad_top .column_category_box p,
+.interview_area .people_box_text .busyo,
+.people_work_style .work_style_box_text_bk p {
+    font-size: 0.8rem;
+}
+
+@media (max-width: 1000px) {
+	/* font size */
+	.simple_mid_career_top_title > span,
+	.strong_mid_career_top_title > span  {
+		font-size: 14rem;
+	}
+
+	.mid_career .keyword_area .strong_mid_career_top_title span {
+		font-size: 12rem;
+	}
+
+	.misson_vision_misson_textboxes::after,
+	.keyword_figures::after {
+		font-size: 10rem;
+	}
+
+	.new_grad_top .people_text p {
+		font-size: 6rem;
+	}
+	
+	.vision_list_right_number p,
+	.large_num  {
+		font-size: 5rem;
+	}
+	
+	.new_grad_top .column_title h2,
+	.mid_career_top .top_title h1{
+		font-size: 4rem;
+	}
+	
+
+	.interview_top_title h1,
+	.new_grad_top .require_right h2{
+		font-size: 3rem;
+	}
+
+	.top_title h1,
+	.new_grad_top .work_style_title h2,
+	.mid_career_top .ourjob_title h2,
+	.mid_career_top .project_title h2,
+	.mid_career_top .column_title h2,
+	.about_R9_title h2,
+	.strengths_title h2,
+	.R09_data_title h2,
+	.top_column_title > div h2,
+	.strong_mid_career_top_title > div > h1,
+	.interview_area .work_style_title h2,
+	.people_work_style .work_style_title h2 {
+		font-size: 3rem;
+	}
+
+	.top_title h1,
+	.supports_text_left .color_lightgreen_text,
+	.work_style_box > div:first-of-type > p:first-of-type,
+	.strong_underline_heading_wrapper h2 {
+		font-size: 3rem;
+	}
+
+	.department .title h4,
+	.daily_schedule > div > .heading_wrapper > h2,
+	.interview_top_title h1::after {
+		font-size: 3rem;
+	}
+
+	.subcon_title,
+	.new_grad_top .our_job h2,
+	.new_grad_top .people_part h2,
+	.about_R9_business_number p,
+	.supports_text_left .color_green_text,
+	.simple_mid_career_top_title h1,
+	.mid_career_top .require_title h2 {
+		font-size: 2rem;
+	}
+
+	.simple_new_grad_top_title h3,
+	.strong_new_grad_top_title h3{
+		font-size: 1.8rem
+	}
+
+	.recruit_text h2,
+	.work_style_box > div:first-of-type > h2 {
+		font-size: 1.8rem;
+	}
+	.new_grad_top .new_grad_toptext p,
+	.new_grad_top .topbottom_left h2,
+	.mid_career_top .ourjob_detailsbox h3,
+	.ceo_message_title h2,
+	.keyword_title h3,
+	.profile .box > div:first-of-type > h3,
+	.article_single .heading_wrapper h1  {
+		font-size: 1.6rem;
+	}
+
+	.simple_heading,
+	.underline_heading,
+	.category.widget .heading,
+	.mid_career .misson_vision_misson_title h3 {
+		font-size: 1.6rem
+	}
+
+	.subcon_subtitle,
+	.new_grad_top .social_cont_textbox h3,
+	.new_grad_top .about_us_textbox h2,
+	.new_grad_top .top_title p,
+	.new_grad_top .require_textbox h3,
+	.new_grad_top .column_subtitle h3,
+	.mid_career_top .top_page_bottom h2,
+	.mid_career_top .require_left h3,
+	.mid_career_top .about_us .require_right h3,
+	.mid_career_top .ourjob_textbox h2,
+	.ceo_name_box .ceo_name_box_big,
+	.ceo_name_right p,
+	.misson_vision_misson_textbox h3,
+	.strengths_middle_text h3,
+	.description_below_title h2,
+	.simple_mid_career_top_title > div > p,
+	.simple_mid_career_top_title > div > span,
+	.ewd-ufaq-faq-category-title h3,
+	.related_posts_wrapper h3 {
+		font-size: 1.3rem;
+	}
+
+	.recruit_pic_text p,
+	.recruit_text h3,
+	.number_flow_box > div > div > h4,
+	.schedule_list_item > span:nth-of-type(1),
+	.other_work_style_list > a > .description_wrapper > div > div > div > h3,
+	.department .title h2,
+	.occupation_box .sub_heading {
+		font-size: 1.3rem;
+	}
+
+	.simple_table dt,
+	.schedule_list_item > div:nth-of-type(1) > h3,
+	.schedule_list_item > span:nth-of-type(1),
+	.daily_schedule > div > .heading_wrapper > p,
+	.long_sentence h3,
+	.large_num_title h4,
+	.simple_description > .heading_wrapper h4,
+	.strong_message_bg_and_img > div:first-of-type > p,
+	body .ewd-ufaq-faq-title h4,
+	.ewd-ufaq-faq-title-text::before,
+	.ewd-ufaq-faq-body::before  {
+		font-size: 1.2rem;
+	}
+
+	.subcon_part h3,
+	.new_grad_top .our_job > h3,
+	.new_grad_top .people_part > h3,
+	.new_grad_top .work_style_toptext h3,
+	.new_grad_top .column_textbox h3,
+	.mid_career_top .ver_text p,
+	.mid_career_top .ourjob_detailsbox .sub_title,
+	.simple_new_grad_top_title p,
+	.strong_new_grad_top_title p,
+	.ceo_message_box_text h3,
+	.ceo_message_textbox h3,
+	.about_R9_business > h3,
+	.vision_list_center h2,
+	.value_textbox h3,
+	.links_of_company_job_box h4,
+	.between_employees_and_partners > p,
+	.project_story_box_wrapper h3,
+	.simple_project_story_box > div h4,
+	.occupation_box h4,
+	.strong_underline_heading_wrapper span,
+	.top_column_title > div span,
+	.thanks .form_wrapper > div > h3,
+	.people_work_style .work_style_toptext h3{
+		font-size: 1.2rem;
+	}
+
+	.top_title p,
+	.new_grad_top .qa_entry_box p,
+	.accent_button > * > p,
+	#back_button,
+	.category.widget .cat-item {
+		font-size: 1.0rem;
+	}
+
+	.subcon_part p,
+	.new_grad_top .top_colum_choice,
+	input,
+	select,
+	.tag.widget .tagcloud .tag-cloud-link,
+	.mid_career .department_list .large_num {
+		font-size: 1.0rem;
+	}
+
+	.tag.widget .tagcloud .tag-cloud-link {
+		font-size: 1rem!important;
+	}
+
+	.new_grad_top .topbottom_left p,
+	.new_grad_top .work_style_toptext p,
+	.new_grad_top .footer_top_name p,
+	.new_grad_top .footer_top_menu p,
+	.ceo_name_left > p,
+	.ceo_name_box .ceo_name_box_color,
+	.page_top_menubox p,
+	.mid_career_top .details_more p,
+	.recruit_text p,
+	.recruit_more p,
+	.work_style_box > div > span:nth-of-type(3),
+	.category.widget .heading::after,
+	.header_menu p,
+	.mid_career .misson_vision_misson_title p,
+	.people_work_style .work_style_toptext p{
+		font-size: 0.9rem;
+	}
+
+	.footer_bottom,
+	.new_grad_top .people_box_text .busyo,
+	.new_grad_top .work_style_box_text_bk p,
+	.new_grad_top .work_style_box_text .busyo,
+	.new_grad_top .column_category_box p,
+	.interview_area .people_box_text .busyo,
+	.people_work_style .work_style_box_text_bk p {
+		font-size: 0.9rem;
+	}
+
+}
