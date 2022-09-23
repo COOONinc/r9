@@ -226,7 +226,10 @@ jQuery(function ($) {
 
 const swiper = new Swiper(".swiper", {
   loop: true,
-  // ページネーション
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: true,
+  },
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
