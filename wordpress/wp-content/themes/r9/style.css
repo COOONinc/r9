@@ -5876,9 +5876,13 @@ body.mid_career .sp_menu {
 }
 
 .swiper-pagination-bullet {
-  background-color: rgb(255, 255, 255)!important;
+  background-color: rgb(255, 255, 255);
   height: 14px;
   width: 14px;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: rgb(114, 166, 221);
 }
 
 @media (max-width: 1001px) {
