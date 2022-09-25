@@ -6,11 +6,11 @@ get_template_part('template/cta/mid_career', null, $args);
     <div class="w_main_out sp" style="border:none;">
       <div class="mid-footer-img"><img class="sp_logo sp" src="/wp-content/themes/r9/images/logo_mid_career.svg"></div>
     </div>
-    <div class="w_main_out" style="width: 1300px;">
+    <div class="w_main_out top-footer-bottom">
       <div class="footer_top_name pc">
         <p>中途採用2024</p>
       </div>
-      <div class="footer_top_menubox">
+      <div class="footer_top_menubox newgrad-footer mid-footer">
         <?php wp_nav_menu(
 					array(
 						'theme_location' => 'mid_career_footer',
@@ -40,8 +40,8 @@ get_template_part('template/cta/mid_career', null, $args);
       </div>
     </div>
   </div>
-  <div class="footer_bottom w_main_out">
-    <img src="/wp-content/themes/r9/images/R09ロゴ.png" class="pc">
+  <div class="footer_bottom w_main_out top-footer-bottom">
+    <img src=" /wp-content/themes/r9/images/R09ロゴ.png" class="pc">
     <a href="https://r09.jp/contact/" class="inquiry sp">お問い合わせ</a>
     <p class="copyright">Copyright ©株式会社アールナイン All right reserved.</p>
     <a href="https://r09.jp/contact/" class="inquiry pc">お問い合わせ</a>

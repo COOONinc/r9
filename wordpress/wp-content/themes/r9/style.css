@@ -1879,13 +1879,14 @@ footer {
     line-height: 30px;
     padding: 0 60px 0 30px;
     border-right: 1px solid #fff;
+    white-space: nowrap;
 }
 
 .footer_top_menubox {
     display: flex;
     margin-left: auto;
     position: relative;
-    width: 80vw;
+    width: 40vw;
     justify-content: end;
 }
 
@@ -5828,7 +5829,7 @@ body.mid_career .sp_menu {
 }
 
 .newgrad-footer p {
-    font-size: 20px !important;
+    font-size: 15px !important;
 }
 
 @media (min-width: 1001px) {

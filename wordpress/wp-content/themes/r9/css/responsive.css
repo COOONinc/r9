@@ -180,6 +180,7 @@
 
 	.sp .top_page_middle {
 		overflow: hidden;
+		/* display: none; */
 	}
 
 	.sp .top_page_middle img {
@@ -214,6 +215,14 @@
 		left: 3%;
 		width: 40px;
 		color: #fff;
+	}
+
+	.top-footer {
+		padding-bottom: 60px;
+	}
+
+	.top_page::after {
+		display: none;
 	}
 
 	.sp .entry_part {
@@ -2139,4 +2148,4 @@
 		width: 90%;
 		margin: auto;
 	}
-}
+
