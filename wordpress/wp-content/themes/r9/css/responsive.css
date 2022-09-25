@@ -1750,8 +1750,8 @@
 
 	.mid_career_top .top_slidebox {
 		justify-content: start;
-    padding-left: 2.5vw;
-    height: 320px;
+		padding-left: 2.5vw;
+		height: 320px;
 	}
 
 	.mid_career_top .slide_part img {
@@ -1761,12 +1761,12 @@
 
 	.mid_career_top .top_title h1 {
 		left: 0;
-    bottom: -220px;
-    position: relative;
-    z-index: 1;
+		bottom: -220px;
+		position: relative;
+		z-index: 1;
 		font-size: clamp(3.6rem, 5vw, 7rem);
-    color: rgba(255, 255, 255, 0.1);
-    line-height: 1.15;
+		color: rgba(255, 255, 255, 0.1);
+		line-height: 1.15;
 	}
 
 	.mid_career_top .slide_part {
@@ -1776,17 +1776,17 @@
 
 	.mid_career_top .ver_text p {
 		writing-mode: vertical-rl;
-    position: absolute;
-    z-index: 3;
-    top: 60%;
-    left: -10%;
-    height: 100%;
-    white-space: nowrap;
+		position: absolute;
+		z-index: 3;
+		top: 60%;
+		left: -10%;
+		height: 100%;
+		white-space: nowrap;
 		color: #fff;
-    line-height: 32px;
-    letter-spacing: 4px;
-    width: auto;
-    font-size: clamp(18px, 2.1vw, 28px);
+		line-height: 32px;
+		letter-spacing: 4px;
+		width: auto;
+		font-size: clamp(18px, 2.1vw, 28px);
 	}
 
 	.mid_career_top .top_page_middle {
@@ -2149,3 +2149,25 @@
 		margin: auto;
 	}
 
+	.top-footer-bottom {
+		width: 90%;
+		margin: auto;
+	}
+
+	.newgrad-footer p {
+		font-size: 20px !important;
+		white-space: nowrap;
+	}
+
+	.mid-footer p {
+		font-size: 13px !important;
+	}
+
+	.sp_menu .header_textmenu a {
+		width: 100%;
+	}
+
+	.w-100 {
+		width: 100%;
+	}
+}

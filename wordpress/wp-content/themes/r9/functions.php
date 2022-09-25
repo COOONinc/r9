@@ -71,7 +71,7 @@ class Header_Nav_Walker extends Walker_Nav_Menu
         !empty($item->url) and $attributes .= ' href="'   . esc_attr($item->url) . '"';
         $title = apply_filters('the_title', $item->title, $item->ID);
         $item_output = $args->before
-            . "<a $attributes>"
+            . "<a $attributes  class='w-100>"
             . $args->link_before
             . $title
             . $args->link_after
