@@ -247,17 +247,17 @@ select,
 	.new_grad_top .people_text p {
 		font-size: 6rem;
 	}
-	
+
 	.vision_list_right_number p,
 	.large_num  {
 		font-size: 5rem;
 	}
-	
+
 	.new_grad_top .column_title h2,
 	.mid_career_top .top_title h1{
 		font-size: 4rem;
 	}
-	
+
 
 	.interview_top_title h1,
 	.new_grad_top .require_right h2{
@@ -449,4 +449,75 @@ select,
 		font-size: 0.9rem;
 	}
 
+}
+
+/* 20220924_追加コード */
+.article_single h1 {
+	font-size: 3rem;
+	font-weight: bold;
+	letter-spacing: 0.05em;
+}
+
+.article_single h2 {
+	font-size: 2.25rem;
+	font-weight: bold;
+	letter-spacing: 0.05em;
+}
+
+.article_single h3 {
+	font-size: 1.75rem;
+	font-weight: bold;
+	letter-spacing: 0.05em;
+}
+
+.article_single h4 {
+	font-size: 1.5rem;
+	font-weight: bold;
+	letter-spacing: 0.05em;
+}
+
+.article_single h5 {
+	font-size: 1.25rem;
+	font-weight: bold;
+	letter-spacing: 0.05em;
+}
+
+.article_single h6 {
+	font-size: 1rem;
+	font-weight: bold;
+	letter-spacing: 0.05em;
+}
+
+.article_single p {
+	font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+	.article_single h1 {
+		font-size: 2rem;
+	}
+
+	.article_single h2 {
+		font-size: 1.75rem;
+	}
+
+	.article_single h3 {
+		font-size: 1.5rem;
+	}
+
+	.article_single h4 {
+		font-size: 1.25rem;
+	}
+
+	.article_single h5 {
+		font-size: 1rem;
+	}
+
+	.article_single h6 {
+		font-size: 0.75rem;
+	}
+
+	.article_single p {
+		font-size: 0.75rem;
+	}
 }
