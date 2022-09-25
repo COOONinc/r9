@@ -3,7 +3,7 @@ get_template_part('template/cta/new_grad', null, $args);
 ?>
 <footer>
   <div class="footer_top">
-    <div class="w_main_out" style="width: 1300px;">
+    <div class="w_main_out top-footer-bottom">
       <div class="footer_top_name pc">
         <p>新卒採用2024</p>
       </div>
@@ -23,7 +23,7 @@ get_template_part('template/cta/new_grad', null, $args);
 				); ?>
         <div class="footer_top_menu before-none">
           <a href="https://r09.jp/" target="_blank">
-            <p class="w-150">企業サイトはこちら</p>
+            <p class="w-150">コーポレートサイトはこちら</p>
             <img src="/wp-content/themes/r9/images/gaibulink2.svg" class="gaibulink2">
           </a>
         </div>
@@ -40,7 +40,7 @@ get_template_part('template/cta/new_grad', null, $args);
       </div>
     </div>
   </div>
-  <div class="footer_bottom w_main_out">
+  <div class="footer_bottom w_main_out top-footer-bottom">
     <img src="/wp-content/themes/r9/images/R09ロゴ.png" class="pc">
     <a href="https://r09.jp/contact/" class="inquiry sp">お問い合わせ</a>
     <p class="copyright">Copyright ©株式会社アールナイン All right reserved.</p>

@@ -180,6 +180,7 @@
 
 	.sp .top_page_middle {
 		overflow: hidden;
+		/* display: none; */
 	}
 
 	.sp .top_page_middle img {
@@ -214,6 +215,14 @@
 		left: 3%;
 		width: 40px;
 		color: #fff;
+	}
+
+	.top-footer {
+		padding-bottom: 60px;
+	}
+
+	.top_page::after {
+		display: none;
 	}
 
 	.sp .entry_part {
@@ -2122,5 +2131,27 @@
 	.artcle-width {
 		width: 90%;
 		margin: auto;
+	}
+
+	.top-footer-bottom {
+		width: 90%;
+		margin: auto;
+	}
+
+	.newgrad-footer p {
+		font-size: 20px !important;
+		white-space: nowrap;
+	}
+
+	.mid-footer p {
+		font-size: 13px !important;
+	}
+
+	.sp_menu .header_textmenu a {
+		width: 100%;
+	}
+
+	.w-100 {
+		width: 100%;
 	}
 }
