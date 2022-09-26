@@ -41,7 +41,7 @@
           </div>
           <div class="top_colum_choicebox">
             <div class="top_colum_all">
-              <a href="/column/">
+              <a href="<?php echo home_url(); ?>/column/">
                 <p>NEWS ALL</p>
               </a>
             </div>

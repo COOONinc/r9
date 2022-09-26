@@ -2120,6 +2120,9 @@ body:not(.new_grad):not(.mid_career):not(.new_grad_top):not(.mid_career_top) .he
 
 .new_grad_top .top_colum_all {
     background-color: #3E414A;
+    height: 100%;
+    display: flex;
+    align-items: center;
 }
 
 .new_grad_top .top_colum_all p {
