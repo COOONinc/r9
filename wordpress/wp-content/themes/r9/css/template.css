@@ -29,10 +29,11 @@
 .simple_new_grad_top_title h3,
 .simple_new_grad_top_title p,
 .strong_new_grad_top_title h3,
-.strong_new_grad_top_title p  {
+.strong_new_grad_top_title p {
     color: #fff;
     z-index: 1;
 }
+
 .simple_new_grad_top_title h3,
 .strong_new_grad_top_title h3 {
     padding-bottom: 20px;
@@ -44,9 +45,9 @@
 }
 
 .simple_new_grad_top_title p {
-/*     font-family: GlossAndBloom; */
-/*     font-weight: lighter; */
-	font-weight: bold;
+    /*     font-family: GlossAndBloom; */
+    /*     font-weight: lighter; */
+    font-weight: bold;
 }
 
 /* top_title > strong_new_grad */
@@ -62,40 +63,45 @@
 
 /* top_title > simple_mid_caeer & strong_mid_career */
 .simple_mid_career_top_title,
-.strong_mid_career_top_title{
+.strong_mid_career_top_title {
     height: 400px;
     display: flex;
     align-items: center;
     position: relative;
     overflow: hidden;
 }
-.simple_mid_career_top_title > div > h1,
-.strong_mid_career_top_title > div > h1{
+
+.simple_mid_career_top_title>div>h1,
+.strong_mid_career_top_title>div>h1 {
     margin-bottom: 50px;
     margin-left: -5px;
-	z-index: 999;
+    z-index: 3;
     position: relative;
 }
-.simple_mid_career_top_title > div > *,
-.strong_mid_career_top_title > div > * {
+
+.simple_mid_career_top_title>div>*,
+.strong_mid_career_top_title>div>* {
     font-weight: bold;
     letter-spacing: 0.05em;
 }
-.simple_mid_career_top_title > div > span,
-.simple_mid_career_top_title > div > p,
-.strong_mid_career_top_title > div > span,
-.strong_mid_career_top_title > div > p {
+
+.simple_mid_career_top_title>div>span,
+.simple_mid_career_top_title>div>p,
+.strong_mid_career_top_title>div>span,
+.strong_mid_career_top_title>div>p {
     font-family: Montserrat;
 }
-.simple_mid_career_top_title > div > span,
-.strong_mid_career_top_title > div > span{
+
+.simple_mid_career_top_title>div>span,
+.strong_mid_career_top_title>div>span {
     color: #5CADD3;
     display: inline-block;
     margin-bottom: 15px;
     letter-spacing: 0.08em;
 }
-.simple_mid_career_top_title > span,
-.strong_mid_career_top_title > span{
+
+.simple_mid_career_top_title>span,
+.strong_mid_career_top_title>span {
     position: absolute;
     font-family: poppins, sans-serif;
     font-weight: bold;
@@ -106,21 +112,23 @@
     letter-spacing: 0.05em;
     right: -4vw;
     bottom: -3vh;
-	z-index: 1;
+    z-index: 1;
 }
 
 /* top_title > interview_top_title */
 .interview:not(body) {
     padding-bottom: 140px;
 }
+
 .interview_top_title {
     background-size: cover;
     height: 600px;
     background-position: right;
-	position: relative;
+    position: relative;
 }
+
 .interview_top_title::after {
-	content: '';
+    content: '';
     background-color: rgba(0, 0, 0, 0.05);
     position: absolute;
     top: 0;
@@ -129,13 +137,15 @@
     right: 0;
     z-index: 0;
 }
-.interview_top_title > div {
+
+.interview_top_title>div {
     display: flex;
     align-items: center;
     height: 100%;
-	position: relative;
-	z-index: 1;
+    position: relative;
+    z-index: 1;
 }
+
 .interview_top_title h1 {
     color: #fff;
     letter-spacing: 0.1em;
@@ -145,6 +155,7 @@
     font-weight: bold;
     font-family: Montserrat;
 }
+
 .interview_top_title h1::after {
     content: "Interview";
     color: #FF6600;
@@ -154,7 +165,7 @@
     transform: rotate(-10deg);
     letter-spacing: 0.02em;
     font-weight: normal;
-	font-family: AntroVectra;
+    font-family: AntroVectra;
 }
 
 /* aioseo-breadcrumbs */
@@ -170,8 +181,9 @@
 .aioseo-breadcrumb-separator {
     padding: 0 15px;
 }
+
 @media (max-width: 1000px) {
-	.aioseo-breadcrumbs {
-		padding-bottom: 60px;
-	}
+    .aioseo-breadcrumbs {
+        padding-bottom: 60px;
+    }
 }

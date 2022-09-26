@@ -1380,6 +1380,7 @@
 	}
 
 	.new_grad_top .work_style_figure_boxes {
+		justify-content: center;
 		flex-wrap: wrap;
 	}
 
@@ -1391,7 +1392,7 @@
 
 	.new_grad_top .work_style_figure_left,
 	.new_grad_top .work_style_figure_right {
-		width: 100%;
+		width: fit-content;
 	}
 
 	.new_grad_top .require_area,
@@ -1502,7 +1503,7 @@
 	}
 
 	.new_grad_top .people_boxes {
-		flex-direction: column;
+		flex-wrap: wrap;
 	}
 
 	.new_grad_top .people_box_text a {
@@ -1511,15 +1512,16 @@
 		width: 287px;
 	}
 
-	.new_grad_top .corner_triangle::before {
-		border-bottom: 90px solid transparent;
-	}
+	/* .new_grad_top .corner_triangle::before {
+		border-bottom: 60px solid transparent;
+	} */
 
 	.new_grad_top .corner_triangle::after {
 		border-top: 90px solid transparent;
 	}
 
 	.new_grad_top .people_box {
+		width: fit-content;
 		margin-bottom: 50px;
 	}
 
@@ -1745,7 +1747,7 @@
 
 
 	.sp_logo {
-		width: 185px;
+		width: 165px;
 	}
 
 	.mid_career_top .top_slidebox {
@@ -2101,7 +2103,7 @@
 	}
 
 	.new-footer-img img {
-		width: 60%;
+		width: fit-content;
 	}
 
 	.mid_career .footer_top_menubox,
@@ -2129,8 +2131,8 @@
 
 	.new_grad_top .people_text {
 		position: relative;
-		top: 70px;
-		z-index: 3;
+		top: 170px;
+		z-index: -1;
 	}
 
 	.new_grad_top .people_part h2 {
@@ -2169,5 +2171,13 @@
 
 	.w-100 {
 		width: 100%;
+	}
+
+	.sp_menu {
+		overflow: scroll;
+	}
+
+	.new_grad_top .work_style_title {
+		padding-top: 30px;
 	}
 }

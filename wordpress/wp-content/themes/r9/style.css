@@ -26,7 +26,7 @@ html {
 body {
     margin: 0;
     padding: 0;
-    font-family: "Noto Sans JP";
+    font-family: "Noto-sansJP", "YuGothic", "Yu Gothic", "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", "Meiryo", sans-serif;
     overflow-x: hidden;
 }
 
@@ -2484,7 +2484,7 @@ body:not(.new_grad):not(.mid_career):not(.new_grad_top):not(.mid_career_top) .he
 .new_grad_top .people_text {
     position: relative;
     top: 160px;
-    z-index: 4;
+    z-index: 1;
 }
 
 .new_grad_top .people_text p {
@@ -2495,44 +2495,35 @@ body:not(.new_grad):not(.mid_career):not(.new_grad_top):not(.mid_career_top) .he
     letter-spacing: 30px;
 }
 
-.new_grad_top .people_part {
-    background-image: url(/wp-content/uploads/ourjob_bg1.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    text-align: center;
-    color: #fff;
-}
 
 .new_grad_top .people_part::after {
     content: '';
-    background-color: rgba(92, 173, 211, 0.9);
-    position: absolute;
+    /* background-color: rgba(92, 173, 211, 0.9); */
+    /* position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 100%; */
     z-index: 1;
 }
 
 .new_grad_top .corner_triangle::before {
     content: '';
-    position: absolute;
+    /* position: absolute; */
     top: 0;
     left: 0;
-    border-top: 0px solid transparent;
+    /* border-top: 0px solid transparent;
     border-right: 0px solid transparent;
     border-left: 100vw solid #fff;
-    border-bottom: 200px solid transparent;
-    width: 0;
+    border-bottom: 200px solid transparent; */
+    /* width: 0;
     height: 0;
     border-style: solid;
-    z-index: 2;
+    z-index: 2; */
 }
 
 .new_grad_top .corner_triangle::after {
-    content: '';
+    /* content: '';
     position: absolute;
     bottom: 0;
     right: 0;
@@ -2543,23 +2534,66 @@ body:not(.new_grad):not(.mid_career):not(.new_grad_top):not(.mid_career_top) .he
     width: 0;
     height: 0;
     border-style: solid;
-    z-index: 2;
+    z-index: 2; */
 }
 
-.new_grad_top .people_part_front {
-    position: relative;
-    z-index: 3;
+@media (min-width: 1001px) {
+
+    .new_grad_top .people_part_front {
+        z-index: 3;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+    }
+
+    .people_part {
+        position: relative;
+    }
+}
+
+@media (max-width: 1001px) {
+    .new_grad_top .people_part {
+        background-image: url(/wp-content/uploads/test@2x.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        text-align: center;
+        color: #fff;
+        z-index: 1;
+    }
+
+    .new_grad_top .people_part_front {
+        position: relative;
+        z-index: 3;
+        padding-bottom: 300px;
+    }
 }
 
 .new_grad_top .people_part h2 {
-    padding: 250px 0 30px;
+    padding: 0px 0 30px;
     font-weight: lighter;
     font-family: GlossAndBloom;
+    color: white;
+    text-align: center;
+}
+
+.new_grad_top .people_part h3 {
+    margin-bottom: 60px;
+    color: white;
+    text-align: center;
+}
+
+.people_part-img {
+    width: 100%;
 }
 
 .new_grad_top .people_boxes {
     display: flex;
-    padding: 50px 0 300px;
+    /* padding: 50px 0 300px; */
     justify-content: space-around;
     margin: 0 auto;
 }
@@ -5954,5 +5988,5 @@ body.mid_career .sp_menu {
 }
 
 .nonedisplay {
-    display: none !;
+    display: none;
 }
