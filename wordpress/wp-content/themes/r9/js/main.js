@@ -222,6 +222,15 @@ jQuery(function ($) {
       });
     }
   });
+
+  $(function ($) {
+    $("#confirm_button").on("click", function () {
+      const greenTop = $("#formTop").offset().top;
+      $("html").animate({ scrollTop: greenTop });
+      $("#confirm_button").remove();
+      $('.form_page_button_wrapper').show();
+    });
+  });
 });
 
 const swiper = new Swiper(".swiper", {
