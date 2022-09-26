@@ -1969,8 +1969,8 @@ footer .footer_sns_icon .wantedly_icon {
     .new_grad_top .header_content,
     .sp_menu_header {
         padding-right: 0;
-        width: 95%;
-        margin: 0 0 0 auto;
+        width: 100%;
+        margin: 0 0 0 8px;
         justify-content: space-between;
         /* padding-left: clamp(2.5vw, calc(50vw - 600px), 100vw); */
     }
