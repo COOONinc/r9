@@ -2210,4 +2210,8 @@
 	.bg-img-box img {
 		object-position: 54%;
 	}
+
+	.links_of_company_job_box .imgPosi {
+		background-position: center !important;
+	}
 }
