@@ -2487,7 +2487,7 @@ body:not(.new_grad):not(.mid_career):not(.new_grad_top):not(.mid_career_top) .he
 .new_grad_top .people_text {
     position: relative;
     top: 160px;
-    z-index: 1;
+    z-index: -1;
 }
 
 .new_grad_top .people_text p {
@@ -2592,6 +2592,7 @@ body:not(.new_grad):not(.mid_career):not(.new_grad_top):not(.mid_career_top) .he
 
 .people_part-img {
     width: 100%;
+    height: 1000px;
 }
 
 .new_grad_top .people_boxes {

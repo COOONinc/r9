@@ -13,10 +13,10 @@
         <div class="swiper new_grad_swiper">
           <div class="swiper-wrapper new_grad_swiper-wrapper">
             <div class="swiper-slide">
-              <img src="<?php echo home_url(); ?>/wp-content/uploads/image8.jpg">
+              <img src="<?php echo home_url(); ?>/wp-content/uploads/slideitem1.jpg">
             </div>
             <div class="swiper-slide">
-              <img src="<?php echo home_url(); ?>/wp-content/uploads/image7.jpg">
+              <img src="<?php echo home_url(); ?>/wp-content/uploads/slideitem2.jpg">
             </div>
           </div>
         </div>
@@ -217,6 +217,7 @@
       <p>RECRUIT<br>2024</p>
     </div>
     <div class="people_part">
+      <img src="/wp-content/uploads/test.png" class="people_part-img pc">
       <div class="corner_triangle people_part_front">
         <h2>People</h2>
         <h3>仲間を知る</h3>
