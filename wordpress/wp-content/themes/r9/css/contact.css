@@ -78,9 +78,9 @@ body:not(.confirm_page) .form_page_button_wrapper {
 	align-items: flex-start !important;
 }
 
-.wpcf7-not-valid-tip {
+/* .wpcf7-not-valid-tip {
 	display: none;
-}
+} */
 
 .wpcf7-form-control-wrap,
 .form_table .address_dd>div>.wpcf7-form-control-wrap {
