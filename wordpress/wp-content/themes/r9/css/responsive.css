@@ -1535,6 +1535,7 @@
 
 	.ceo_message_area .ceo_message_box img {
 		width: 100%;
+		margin-bottom: 20px;
 	}
 
 	.page_top_menu_area .page_top_menu {
@@ -1583,7 +1584,7 @@
 	}
 
 	.misson_vision_misson_textbox h3 {
-		font-size: 1.6;
+		font-size: 2rem;
 	}
 
 	.misson_vision_misson_pic img {
@@ -1592,7 +1593,7 @@
 	}
 
 	.mid_career .misson_vision_misson_title {
-		top: -38px;
+		top: 0px;
 	}
 
 	.vision_list_part .vision_listbox {
@@ -1928,7 +1929,7 @@
 	.new_grad_top .column_subtitle h3::after {
 		left: 50%;
 		transform: translateY(-50%) translateX(-50%);
-		-webkit- transform: translateY(-50%) translateX(-50%);
+		-webkit-transform: translateY(-50%) translateX(-50%);
 	}
 
 	.mid_career_top .column_subtitle {
@@ -2054,7 +2055,7 @@
 	}
 
 	.mid_career .about_R9_titlebox {
-		padding-top: 100px;
+		padding-top: 60px;
 	}
 
 	.mid_career .about_R9_business_boxes {
@@ -2070,7 +2071,7 @@
 	}
 
 	.mid_career .misson_vision_misson .mid_vertically {
-		right: 60px;
+		right: 15px;
 	}
 
 	.mid_career .misson_vision_misson .mid_vertically_border {
@@ -2227,5 +2228,101 @@
 
 	.img3434 {
 		object-position: 74% !important;
+	}
+
+	.ceo_name_box {
+		margin-bottom: 15px;
+	}
+
+	.ceo_name_box .ceo_name_box_color {
+		padding-left: 10px;
+		margin-top: 5px;
+	}
+
+	.ceo_message_title {
+		margin-bottom: 60px;
+	}
+
+	.ceo_name_right p {
+		font-size: 2.1rem;
+	}
+
+	.ceo_message_textbox,
+	.ceo_name_part,
+	.ceo_message_box {
+		margin-bottom: 60px;
+	}
+
+	.ceo_message_box_text p,
+	.ceo_message_textbox p {
+		margin-bottom: 20px;
+	}
+
+	.ceo_message_textbox,
+	.ceo_name_part,
+	.ceo_message_box {
+		margin-bottom: 20px;
+	}
+
+	.imagePosition img {
+		object-position: 80%;
+	}
+
+	.mid_career .mid_vertically {
+		left: 30px;
+	}
+
+	.ceo_message_title p {
+		margin-bottom: 15px;
+	}
+
+	.mid_career .ceo_message_title {
+		margin-bottom: 0;
+	}
+
+	.R09_data_titlebox {
+		margin-bottom: 45px;
+	}
+
+	.mid_career .about_R9_business>h3 {
+		margin-bottom: 40px;
+	}
+
+	.simple_heading,
+	.underline_heading,
+	.category.widget .heading,
+	.mid_career .misson_vision_misson_title h3 {
+		font-size: 1.2rem;
+	}
+
+	.mid_career .misson_vision_misson_title {
+		width: fit-content;
+		right: 0;
+		left: 0;
+		margin: auto;
+	}
+
+	.mid_career .misson_vision_misson_title p {
+		padding-left: 0;
+	}
+
+	.mid_career .misson_vision_misson .mid_vertically {
+		top: 260px;
+	}
+
+	.mid_career .keyword_figures {
+		padding-bottom: 80px;
+	}
+
+	.R09_data_area {
+		padding-top: 0;
+	}
+
+	.R09_data_area .w_main_out {
+		padding-top: 0;
+	}
+
+	.new_grad_top .story {
+		background-position: center;
 	}
 }

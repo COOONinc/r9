@@ -1,3 +1,5 @@
+console.log("hoge");
+
 jQuery(function ($) {
   // var w = $("body").width();
 
@@ -16,6 +18,7 @@ jQuery(function ($) {
   //     }
   //   });
   // }
+
 
   var isOpened = false;
   $(".sp_menu_icon").on("click", function () {
