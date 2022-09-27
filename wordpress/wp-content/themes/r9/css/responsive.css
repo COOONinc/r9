@@ -1901,7 +1901,13 @@
 	}
 
 	.common_part .qa_blue_box_right p {
+		width: fit-content;
 		left: 40%;
+	}
+
+
+	.common_part .qa_white_box_left p {
+		width: fit-content;
 	}
 
 	.common_part .qa_blue_box_right img {
@@ -2213,5 +2219,13 @@
 
 	.links_of_company_job_box .imgPosi {
 		background-position: center !important;
+	}
+
+	.img_wrapper img {
+		object-position: 0%;
+	}
+
+	.img3434 {
+		object-position: 74% !important;
 	}
 }

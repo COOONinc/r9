@@ -87,7 +87,7 @@ function links_of_company_job($atts) {
     $html = '<div class="bg_gray links_of_company_job_box_wrapper">
 		<div class="w_main">
 			<div class="links_of_company_job_box">
-				<a href="/'.$type.'/about_us/" style="background-image: url(\'/wp-content/uploads/aboutus@2x.jpg\')">
+				<a href="/'.$type.'/about_us/" style="background-image: url(\'/wp-content/uploads/aboutus@2x.jpg\'); background-position: 50% 28%;">
 					<div>
 						<div>
 							<span>About us</span>
@@ -117,7 +117,7 @@ function links_of_our_job($atts) {
     $html = '<div class="bg_gray links_of_company_job_box_wrapper">
 		<div class="w_main">
 			<div class="links_of_company_job_box">
-				<a href="/'.$type.'/about_us/" style="background-image: url(\'/wp-content/uploads/aboutus@2x.jpg\')">
+				<a href="/'.$type.'/about_us/" style="background-image: url(\'/wp-content/uploads/aboutus@2x.jpg\'); background-position: 50% 28%;">
 					<div>
 						<div>
 							<span>About us</span>
