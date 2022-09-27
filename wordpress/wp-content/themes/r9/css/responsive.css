@@ -709,6 +709,8 @@
 
 	.description_below_title>div:first-of-type {
 		height: 240px;
+		margin-bottom: 50px;
+		background-position: 44%;
 	}
 
 	.description_below_title>div:first-of-type>div {
@@ -717,6 +719,7 @@
 
 	.description_below_title>div:first-of-type>div {
 		padding: 20px;
+		bottom: -50px;
 	}
 
 	.description_below_title>div:last-of-type {
@@ -2199,5 +2202,9 @@
 
 	.value_pic img {
 		object-position: -20%;
+	}
+
+	.bg-img-box img {
+		object-position: 54%;
 	}
 }
