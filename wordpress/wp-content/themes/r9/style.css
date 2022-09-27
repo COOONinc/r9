@@ -6066,10 +6066,16 @@ body.mid_career .sp_menu {
 
 .form__privacy-policy {
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    flex-direction: row;
     text-align: center;
     margin-top: 24px;
+    position: relative;
+}
+
+.form__privacy-policy .error {
+    position: absolute;
+    top: 20px;
 }
 
 .form__unit:last-child {
@@ -6170,7 +6176,7 @@ body.mid_career .sp_menu {
 }
 
 .form__button-area {
-    padding-top: 24px;
+    padding-top: 40px;
     width: 45%;
     margin: auto;
 }
@@ -6233,6 +6239,18 @@ span.mwform-zip-field {
 
 .step-disable {
     background-color: #BCBCBC!important;
+}
+
+.form__privacy-policy .mwform-checkbox-field {
+    padding-top: 0!important;
+}
+
+.form__privacy-policy .mwform-checkbox-field-text {
+    display: none!important;
+}
+
+.form__privacy-policy a {
+    border-bottom: solid 1px black;
 }
 
 @media (max-width: 768px) {
