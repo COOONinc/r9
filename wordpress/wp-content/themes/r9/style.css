@@ -6071,6 +6071,7 @@ body.mid_career .sp_menu {
     text-align: center;
     margin-top: 24px;
     position: relative;
+    color: black;
 }
 
 .form__privacy-policy .error {
@@ -6251,6 +6252,7 @@ span.mwform-zip-field {
 
 .form__privacy-policy a {
     border-bottom: solid 1px black;
+    color: black;
 }
 
 @media (max-width: 768px) {
