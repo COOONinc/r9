@@ -1,21 +1,21 @@
 jQuery(function ($) {
-  var w = $("body").width();
+  // var w = $("body").width();
 
-  var isWhiteHeader = false;
-  if (w > 1000) {
-    $(window).on("scroll", function () {
-      var position = $(this).scrollTop();
-      var height = $("#top_area").position().top;
-      if (position > height && !isWhiteHeader) {
-        isWhiteHeader = true;
-        $("#header").addClass("scrolled");
-      }
-      if (position < height && isWhiteHeader) {
-        isWhiteHeader = false;
-        $("#header").removeClass("scrolled");
-      }
-    });
-  }
+  // var isWhiteHeader = false;
+  // if (w > 1000) {
+  //   $(window).on("scroll", function () {
+  //     var position = $(this).scrollTop();
+  //     var height = $("#top_area").position().top;
+  //     if (position > height && !isWhiteHeader) {
+  //       isWhiteHeader = true;
+  //       $("#header").addClass("scrolled");
+  //     }
+  //     if (position < height && isWhiteHeader) {
+  //       isWhiteHeader = false;
+  //       $("#header").removeClass("scrolled");
+  //     }
+  //   });
+  // }
 
   var isOpened = false;
   $(".sp_menu_icon").on("click", function () {
@@ -133,20 +133,17 @@ jQuery(function ($) {
       $("#box1 .count-up").each(function () {
         $(this)
           .prop("Counter", 0)
-          .animate(
-            {
-              //0からカウントアップ
-              Counter: $(this).text(),
+          .animate({
+            //0からカウントアップ
+            Counter: $(this).text(),
+          }, {
+            // スピードやアニメーションの設定
+            duration: 2000, //数字が大きいほど変化のスピードが遅くなる。2000=2秒
+            easing: "swing", //動きの種類。他にもlinearなど設定可能
+            step: function (now) {
+              $(this).text(Math.ceil(now));
             },
-            {
-              // スピードやアニメーションの設定
-              duration: 2000, //数字が大きいほど変化のスピードが遅くなる。2000=2秒
-              easing: "swing", //動きの種類。他にもlinearなど設定可能
-              step: function (now) {
-                $(this).text(Math.ceil(now));
-              },
-            }
-          );
+          });
       });
     }
   });
@@ -157,20 +154,17 @@ jQuery(function ($) {
       $("#box2 .count-down").each(function () {
         $(this)
           .prop("Counter", 10)
-          .animate(
-            {
-              //10からカウントダウン
-              Counter: $(this).text(),
+          .animate({
+            //10からカウントダウン
+            Counter: $(this).text(),
+          }, {
+            // スピードやアニメーションの設定
+            duration: 1000, //数字が大きいほど変化のスピードが遅くなる。1000=1秒
+            easing: "swing", //動きの種類。他にもlinearなど設定可能
+            step: function (now) {
+              $(this).text(Math.ceil(now));
             },
-            {
-              // スピードやアニメーションの設定
-              duration: 1000, //数字が大きいほど変化のスピードが遅くなる。1000=1秒
-              easing: "swing", //動きの種類。他にもlinearなど設定可能
-              step: function (now) {
-                $(this).text(Math.ceil(now));
-              },
-            }
-          );
+          });
       });
     }
   });
@@ -181,20 +175,17 @@ jQuery(function ($) {
       $("#box3 .count-up").each(function () {
         $(this)
           .prop("Counter", 0)
-          .animate(
-            {
-              //0からカウントアップ
-              Counter: $(this).text(),
+          .animate({
+            //0からカウントアップ
+            Counter: $(this).text(),
+          }, {
+            // スピードやアニメーションの設定
+            duration: 2000, //数字が大きいほど変化のスピードが遅くなる。2000=2秒
+            easing: "swing", //動きの種類。他にもlinearなど設定可能
+            step: function (now) {
+              $(this).text(Math.ceil(now));
             },
-            {
-              // スピードやアニメーションの設定
-              duration: 2000, //数字が大きいほど変化のスピードが遅くなる。2000=2秒
-              easing: "swing", //動きの種類。他にもlinearなど設定可能
-              step: function (now) {
-                $(this).text(Math.ceil(now));
-              },
-            }
-          );
+          });
       });
     }
   });
@@ -205,32 +196,29 @@ jQuery(function ($) {
       $("#box4 .count-up").each(function () {
         $(this)
           .prop("Counter", 0)
-          .animate(
-            {
-              //0からカウントアップ
-              Counter: $(this).text(),
+          .animate({
+            //0からカウントアップ
+            Counter: $(this).text(),
+          }, {
+            // スピードやアニメーションの設定
+            duration: 2000, //数字が大きいほど変化のスピードが遅くなる。2000=2秒
+            easing: "swing", //動きの種類。他にもlinearなど設定可能
+            step: function (now) {
+              $(this).text(Math.ceil(now));
             },
-            {
-              // スピードやアニメーションの設定
-              duration: 2000, //数字が大きいほど変化のスピードが遅くなる。2000=2秒
-              easing: "swing", //動きの種類。他にもlinearなど設定可能
-              step: function (now) {
-                $(this).text(Math.ceil(now));
-              },
-            }
-          );
+          });
       });
     }
   });
 
-  $(function ($) {
-    $("#confirm_button").on("click", function () {
-      const greenTop = $("#formTop").offset().top;
-      $("html").animate({ scrollTop: greenTop });
-      $("#confirm_button").remove();
-      $('.form_page_button_wrapper').show();
-    });
-  });
+  // $(function ($) {
+  //   $("#confirm_button").on("click", function () {
+  //     const greenTop = $("#formTop").offset().top;
+  //     $("html").animate({ scrollTop: greenTop });
+  //     $("#confirm_button").remove();
+  //     $('.form_page_button_wrapper').show();
+  //   });
+  // });
 });
 
 const swiper = new Swiper(".swiper", {
