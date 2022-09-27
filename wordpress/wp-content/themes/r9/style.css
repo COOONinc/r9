@@ -6181,6 +6181,10 @@ body.mid_career .sp_menu {
     background-color: #5CADD3;
 }
 
+.form__mid-button {
+    background-color: #004679!important;
+}
+
 .mwform-checkbox-field input, .mwform-radio-field input {
     margin-right: 5px;
     margin-bottom: 5px;
