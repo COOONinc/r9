@@ -211,15 +211,35 @@ jQuery(function ($) {
     }
   });
 
-  // $(function ($) {
-  //   $("#confirm_button").on("click", function () {
-  //     const greenTop = $("#formTop").offset().top;
-  //     $("html").animate({ scrollTop: greenTop });
-  //     $("#confirm_button").remove();
-  //     $('.form_page_button_wrapper').show();
-  //   });
-  // });
+  $(function ($) {
+    $("#confirm_button").on("click", function () {
+      const greenTop = $("#formTop").offset().top;
+      $("html").animate({
+        scrollTop: greenTop
+      });
+      $("#confirm_button").remove();
+      $('.form_page_button_wrapper').show();
+    });
+  });
 });
+
+const displayTop = document.querySelector('#confirm_button');
+displayTop.addEventListener('click', scroll_to_top);
+
+function scroll_to_top() {
+  if (window.matchMedia("(min-width: 768px)").matches) {
+    window.scroll({
+      top: 430,
+      behavior: 'smooth'
+    });
+  } else {
+    window.scroll({
+      top: 350,
+      behavior: 'smooth'
+    });
+  }
+};
+
 
 const swiper = new Swiper(".swiper", {
   loop: true,
