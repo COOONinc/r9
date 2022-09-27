@@ -6070,6 +6070,11 @@ body.mid_career .sp_menu {
     padding-left: 2px;
     display: flex;
     align-items: center;
+    color: black;
+}
+
+.mwform-radio-field-text {
+    color: black;
 }
 
 .form__input-field {
@@ -6077,6 +6082,11 @@ body.mid_career .sp_menu {
     justify-content: space-between;
     flex-wrap: wrap;
     width: calc(100% - 302px);
+    color: black;
+}
+
+.mwform-checkbox-field.horizontal-item {
+    color: black;
 }
 
 .form__input-field input, .input-w50, .form__wrap input {
@@ -6166,6 +6176,10 @@ body.mid_career .sp_menu {
     margin-right: auto;
     display: block;
     margin-bottom: 24px;
+}
+
+span.mwform-zip-field {
+    color: black;
 }
 
 .form__input-field-sex label {
