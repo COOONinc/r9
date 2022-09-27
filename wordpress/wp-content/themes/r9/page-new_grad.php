@@ -64,10 +64,10 @@
         <div class="swiper new_grad_swiper">
           <div class="swiper-wrapper new_grad_swiper-wrapper">
             <div class="swiper-slide">
-              <img src="<?php echo home_url(); ?>/wp-content/uploads/image8.jpg">
+              <img src="<?php echo home_url(); ?>/wp-content/uploads/slideitem1.jpg">
             </div>
             <div class="swiper-slide">
-              <img src="<?php echo home_url(); ?>/wp-content/uploads/image7.jpg">
+              <img src="<?php echo home_url(); ?>/wp-content/uploads/slideitem2.jpg">
             </div>
           </div>
         </div>
