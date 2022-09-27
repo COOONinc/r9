@@ -6062,6 +6062,7 @@ body.mid_career .sp_menu {
     border-top: 1px solid #EFEFEF;
     display: flex;
     flex-wrap: wrap;
+    color: black;
 }
 
 .form__privacy-policy {
