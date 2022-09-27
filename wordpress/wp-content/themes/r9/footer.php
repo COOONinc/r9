@@ -35,6 +35,22 @@ if (
 	});
 </script>
 
+<script>
+	jQuery(function ($) {
+  jQuery('.checkButton').on('click', function() {
+    if (jQuery('#mw_wp_form_mw-wp-form-1273').hasClass('mw_wp_form_preview')) {
+      jQuery('#form_step1').addClass('step-disable');
+      jQuery('#form_step2').addClass('step-active');
+      jQuery('#form_step3').addClass('step-disable');
+    } else if(jQuery('#mw_wp_form_mw-wp-form-1273').hasClass('mw_wp_form_complete')) {
+      jQuery('#form_step1').addClass('step-disable');
+      jQuery('#form_step2').addClass('step-disable');
+      jQuery('#form_step3').addClass('step-active');
+    }
+  });
+})
+</script>
+
 		<?php wp_footer(); ?>
 
     </body>
