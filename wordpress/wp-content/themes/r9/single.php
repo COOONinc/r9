@@ -8,7 +8,7 @@
   </div>
 </div>
 <div id="top_area"></div>
-<div id="article_list_wrapper" class="pr_main_out">
+<div id="article_list_wrapper">
   <main class="">
     <div class="article_single">
       <?php

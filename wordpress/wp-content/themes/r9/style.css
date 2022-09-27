@@ -344,6 +344,13 @@ select {
     width: 100%;
 }
 
+.container {
+    max-width: 1240px;
+    min-width: 870px;
+    width: 90%;
+    margin: auto;
+}
+
 /* left right img box */
 .left-img-box,
 .right-img-box {
@@ -5867,6 +5874,10 @@ body.mid_career .sp_menu {
 
 .newgrad-footer {
     width: 100% !important;
+}
+
+.w-100 {
+    width: 100%;
 }
 
 .newgrad-footer p {
