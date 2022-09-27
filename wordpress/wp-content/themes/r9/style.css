@@ -2443,6 +2443,7 @@ body:not(.new_grad):not(.mid_career):not(.new_grad_top):not(.mid_career_top) .he
     background-image: url(/wp-content/uploads/our_business.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: 40%;
     width: 50%;
     flex-direction: column;
 }
