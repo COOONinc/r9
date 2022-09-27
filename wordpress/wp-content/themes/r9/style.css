@@ -642,6 +642,8 @@ select {
 .strong_message_bg_and_img>div:first-of-type>p {
     line-height: 3;
     white-space: pre-wrap;
+    position: relative;
+    z-index: 3;
 }
 
 .strong_message_bg_and_img>.img_wrapper {
