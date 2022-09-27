@@ -424,6 +424,7 @@
 
 	.strong_new_grad_top_title {
 		height: 200px;
+		background-position: left;
 	}
 
 	.simple_new_grad_top_title {
@@ -2147,6 +2148,8 @@
 	.strong_message_bg_and_img>div:first-of-type>p {
 		letter-spacing: -1px;
 		padding-left: 10px;
+		position: relative;
+		z-index: 3;
 	}
 
 	.artcle-width {
@@ -2203,7 +2206,6 @@
 	.value_pic img {
 		object-position: -20%;
 	}
-
 	.bg-img-box img {
 		object-position: 54%;
 	}
