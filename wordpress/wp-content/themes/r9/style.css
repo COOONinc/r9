@@ -6026,3 +6026,218 @@ body.mid_career .sp_menu {
     left: -60%;
     transform: skewx(-5deg);
 }
+
+
+/* 20220927_追加コード */
+.mw_wp_form {
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    background: white;
+    padding: 64px;
+    margin-bottom: 64px;
+}
+
+.form__text {
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.form__unit {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    border-top: 1px solid #EFEFEF;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form__privacy-policy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.form__unit:last-child {
+    padding-top: 32px;
+}
+
+.form__title {
+    width: 300px;
+    padding-left: 2px;
+    display: flex;
+    align-items: center;
+}
+
+.form__input-field {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: calc(100% - 302px);
+}
+
+.form__input-field input, .input-w50, .form__wrap input {
+    background-color: #EFEFEF;
+    padding: 15px 20px;
+    border-radius: 6px;
+    width: 100%;
+}
+
+.form__input-field select, .form__input-field-day select , .form__input-field-address select{
+    background-color: #EFEFEF;
+    padding: 15px 20px;
+    border-radius: 6px;
+    width: 100%;
+}
+
+.form__wrap-w50 {
+    max-width: calc(50% - 24px);
+    margin-bottom: 24px;
+}
+
+.form-mb0 {
+    margin-bottom: 0!important;
+}
+
+.form__wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__privacy-policy .error {
+    display: block;
+    width: 120px;
+    margin: auto;
+}
+
+.form__wrap-w30 {
+    margin-right: 16px;
+}
+
+.form__input-field-day {
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(100% - 302px);
+}
+
+.form__input-field-address {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: calc(100% - 302px);
+}
+
+.form__input__mb {
+    margin-bottom: 8px;
+}
+
+.form__button {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    -webkit-transform: skew(-11deg);
+    -moz-transform: skew(-11deg);
+    -o-transform: skew(-11deg);
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+}
+
+.form__button-area {
+    padding-top: 24px;
+    width: 45%;
+    margin: auto;
+}
+
+.form__back {
+    margin-top: 24px;
+    text-align: center;
+    background-color: #fff;
+    color: #777;
+    font-size: 16px;
+    border-bottom: solid 1px black;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 24px;
+}
+
+.form__input-field-sex label {
+    margin-right: 12px;
+}
+
+.mwform-checkbox-field {
+    text-align: center;
+    padding-top: 48px;
+}
+
+.form__button-area .form__button {
+    background-color: #5CADD3;
+}
+
+.mwform-checkbox-field input, .mwform-radio-field input {
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.form__top {
+    display: inline-block;
+    padding: 12px 24px;
+    border: solid 1px black;
+}
+
+.mw_wp_form .error {
+    padding-top: 8px;
+    display: inline;
+    text-align: left;
+}
+
+.step-active {
+    background-color: #5CADD3!important;
+}
+
+.step-disable {
+    background-color: #BCBCBC!important;
+}
+
+@media (max-width: 768px) {
+    .mw_wp_form {
+        padding: 48px 16px;
+    }
+
+    .form__title {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+    .form__input-field {
+        width: 100%;
+    }
+
+    .form__wrap-w50 {
+        max-width: calc(50% - 12px);
+    }
+
+    .form__input-field-day {
+        width: 100%;
+    }
+
+    .form__input-field-address {
+        width: 100%;
+    }
+
+    span.mwform-zip-field {
+        display: flex;
+        align-items: center;
+    }
+
+    .mwform-checkbox-field {
+        padding-top: 24px;
+    }
+}
