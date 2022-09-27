@@ -9,16 +9,32 @@ if (
 	$root_slug == 'new_grad'
 	|| $current_slug == 'new_grad_top'
 ) {
-	get_template_part('template/footer/new_grad');	
+	get_template_part('template/footer/new_grad');
 } else if (
 	$root_slug == 'mid_career'
 	|| $current_slug == 'mid_career_top'
 ) {
-	get_template_part('template/footer/mid_career');	
+	get_template_part('template/footer/mid_career');
 } else {
-	get_template_part('template/footer/top');	
+	get_template_part('template/footer/top');
 }
 ?>
+
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script>
+	const swiper = new Swiper(".swiper", {
+		loop: true,
+		autoplay: {
+			delay: 3000,
+			disableOnInteraction: true,
+		},
+		pagination: {
+			el: ".swiper-pagination",
+			clickable: true,
+		},
+	});
+</script>
+
 		<?php wp_footer(); ?>
 
     </body>

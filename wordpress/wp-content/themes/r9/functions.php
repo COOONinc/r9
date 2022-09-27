@@ -622,7 +622,6 @@ add_action('wp_enqueue_scripts', 'add_css_js');
 // JSの読み込み（フッター）
 function prefix_add_footer_styles()
 {
-    wp_enqueue_script('swiper', 'https://unpkg.com/swiper@8/swiper-bundle.min.js', array(), '', false);
     wp_enqueue_script('main', get_template_directory_uri() . '/js/main.js', array(), '', false);
     wp_enqueue_script('contact', get_template_directory_uri() . '/js/contact.js', array(), '', false);
     wp_enqueue_script('easy-animation', get_template_directory_uri() . '/js/jquery.easy-animation.js', array(), '', false);
