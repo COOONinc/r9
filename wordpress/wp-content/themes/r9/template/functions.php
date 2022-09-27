@@ -87,7 +87,7 @@ function links_of_company_job($atts) {
     $html = '<div class="bg_gray links_of_company_job_box_wrapper">
 		<div class="w_main">
 			<div class="links_of_company_job_box">
-				<a href="/'.$type.'/about_us/" style="background-image: url(\'/wp-content/uploads/p9_1　会社を知る.jpg\')">
+				<a href="/'.$type.'/about_us/" style="background-image: url(\'/wp-content/uploads/aboutus@2x.jpg\')">
 					<div>
 						<div>
 							<span>About us</span>
@@ -96,7 +96,7 @@ function links_of_company_job($atts) {
 						<img src="/wp-content/themes/r9/images/sharp_right_arrow.svg" />
 					</div>
 				</a>
-				<a href="/'.$type.'/our_job/" style="background-image: url(\'/wp-content/uploads/p9_14　仕事をしる.jpg\')">
+				<a href="/'.$type.'/our_job/" style="background-image: url(\'/wp-content/uploads/ourjob@2x.jpg\')">
 					<div>
 						<div>
 							<span>Our job</span>
@@ -111,6 +111,66 @@ function links_of_company_job($atts) {
     return $html;
 }
 add_shortcode('links_of_company_job', 'links_of_company_job');
+
+function links_of_our_job($atts) {
+	$type = $atts['type'];
+    $html = '<div class="bg_gray links_of_company_job_box_wrapper">
+		<div class="w_main">
+			<div class="links_of_company_job_box">
+				<a href="/'.$type.'/about_us/" style="background-image: url(\'/wp-content/uploads/aboutus@2x.jpg\')">
+					<div>
+						<div>
+							<span>About us</span>
+							<h4>会社を知る</h4>
+						</div>
+						<img src="/wp-content/themes/r9/images/sharp_right_arrow.svg" />
+					</div>
+				</a>
+				<a href="/'.$type.'/people/" style="background-image: url(\'/wp-content/uploads/people@2x.jpg\')">
+					<div>
+						<div>
+							<span>People</span>
+							<h4>仲間を知る</h4>
+						</div>
+						<img src="/wp-content/themes/r9/images/sharp_right_arrow.svg" />
+					</div>
+				</a>
+			</dvi>
+		</div>
+	</div>';
+    return $html;
+}
+add_shortcode('links_of_our_job', 'links_of_our_job');
+
+function links_of_aboutus_job($atts) {
+	$type = $atts['type'];
+    $html = '<div class="bg_gray links_of_company_job_box_wrapper">
+		<div class="w_main">
+			<div class="links_of_company_job_box">
+				<a href="/'.$type.'/our_job/" style="background-image: url(\'/wp-content/uploads/ourjob@2x.jpg\')">
+					<div>
+						<div>
+							<span>Our job</span>
+							<h4>仕事を知る</h4>
+						</div>
+						<img src="/wp-content/themes/r9/images/sharp_right_arrow.svg" />
+					</div>
+				</a>
+				<a href="/'.$type.'/people/" style="background-image: url(\'/wp-content/uploads/people@2x.jpg\')">
+					<div>
+						<div>
+							<span>People</span>
+							<h4>仲間を知る</h4>
+						</div>
+						<img src="/wp-content/themes/r9/images/sharp_right_arrow.svg" />
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>';
+    return $html;
+}
+add_shortcode('links_of_aboutus_job', 'links_of_aboutus_job');
 
 function other_work_style($atts){
 	$id = $atts['id'];
