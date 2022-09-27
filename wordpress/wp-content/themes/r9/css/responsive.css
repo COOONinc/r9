@@ -2130,8 +2130,8 @@
 	}
 
 	.new_grad_top .people_text {
-		position: relative;
-		top: 170px;
+		position: absolute;
+		top: -30px;
 		z-index: -1;
 	}
 
@@ -2180,5 +2180,12 @@
 	.new_grad_top .work_style_title {
 		padding-top: 30px;
 	}
-}
 
+	.new_grad_top .our_job {
+		margin-bottom: 120px;
+	}
+
+	.people_area {
+		position: relative;
+	}
+}
