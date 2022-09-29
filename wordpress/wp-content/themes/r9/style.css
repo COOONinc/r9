@@ -6444,4 +6444,8 @@ span.mwform-zip-field {
     .strengths_figure_box .figure_bottom_text {
         font-size: 14px;
     }
+
+    .keyword_figure {
+        padding: 32px 0;
+    }
 }
