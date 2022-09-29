@@ -6294,8 +6294,12 @@ span.mwform-zip-field {
 }
 
 /* 20220929_追加コード */
-@media (min-width: 1000px) {
+.pt-120 {
+    padding-top: 120px;
+}
 
+.top-64 {
+    top: 64px;
 }
 
 @media (max-width: 1001px) {
