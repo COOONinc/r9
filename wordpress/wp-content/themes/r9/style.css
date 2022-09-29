@@ -6329,4 +6329,48 @@ span.mwform-zip-field {
         line-height: 2.5;
         font-size: 16px;
     }
+
+    .pt-80 {
+        padding-top: 80px;
+    }
+
+    .pt-60 {
+        padding-top: 60px;
+    }
+
+    .interview_title {
+        padding-top: 40px;
+    }
+
+    .bg-after-full::after {
+        width: 100vw!important;
+        right: 0!important;
+        left: -5vw!important;
+        margin: auto!important;
+    }
+
+    .bg-before-full::before {
+        height: 120%!important;
+        top: -380px!important;
+        content: ""!important;
+        background-color: #F3F9FC!important;
+        position: absolute!important;
+        z-index: -1!important;
+        width: 100vw!important;
+        right: 0!important;
+        left: -5vw!important;
+        margin: auto!important;
+    }
+
+    .people_work_style .work_style_toptext {
+        padding: 60px 0 40px;
+    }
+
+    .work_style {
+        padding-top: 32px;
+    }
+
+    .mb-40 {
+        margin-bottom: 40px!important;
+    }
 }
