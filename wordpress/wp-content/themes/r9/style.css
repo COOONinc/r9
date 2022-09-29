@@ -6302,7 +6302,45 @@ span.mwform-zip-field {
     top: 64px;
 }
 
-@media (max-width: 1001px) {
+.mid_career .keyword_title {
+    padding-top: 140px;
+}
+
+@media (min-width: 1000px) {
+    .mid_career .value_text {
+        margin-bottom: 64px;
+    }
+
+    .mid_career .value_textbox_p {
+        margin-bottom: 40px;
+    }
+
+    .mid_career .misson_vision_misson_title {
+        top: -120px;
+    }
+
+    .mr-48 {
+        margin-right: 48px;
+    }
+
+    .ceo_message_box_flex .ceo_message_lineheght p {
+        width: 500px;
+    }
+
+    .mid_career .ceo_name_right {
+        width: auto;
+    }
+
+    .ceo_message_box_flex>p {
+        width: 490px;
+    }
+
+    .ceo_name_right p {
+        font-size: 2.2rem;
+    }
+}
+
+@media (max-width: 1000px) {
     .sp-pt24 {
         padding-top: 24px;
     }
@@ -6372,5 +6410,29 @@ span.mwform-zip-field {
 
     .mb-40 {
         margin-bottom: 40px!important;
+    }
+
+    .mid_career .ceo_name_right p {
+        margin-top: 24px;
+    }
+
+    .mid_career .ceo_message_textbox, .mid_career .ceo_name_part, .mid_career .ceo_message_box {
+        margin-top: 64px;
+    }
+
+    .about_R9_business_box {
+        margin-bottom: 64px;
+    }
+
+    .mid_career .value_textbox_p {
+        margin-bottom: 32px;
+    }
+
+    .mid_career .keyword_title {
+        padding-top: 160px;
+    }
+
+    .mid_career .keyword_title {
+        top: 0;
     }
 }
