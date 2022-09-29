@@ -6445,7 +6445,7 @@ span.mwform-zip-field {
         font-size: 14px;
     }
 
-    .keyword_figure {
-        padding: 32px 0;
+    .mid_career .keyword_figure {
+        padding: 32px 0!important;
     }
 }
