@@ -6436,10 +6436,6 @@ span.mwform-zip-field {
         top: 0;
     }
 
-    .strengths_figure_boxes .strengths_figure_boxes_top {
-        display: flex;
-    }
-
     .R9_strengths_area .strengths_figure_part .strengths_figure_boxes .strengths_figure_box {
         max-width: 80px;
         width: 100%;
