@@ -1624,7 +1624,7 @@
 	}
 
 	.R9_strengths_area .strengths_figure_part .strengths_figure_boxes {
-		display: block;
+		display: flex;
 		padding-bottom: 0;
 	}
 
