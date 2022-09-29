@@ -4635,7 +4635,7 @@ body:not(.new_grad):not(.mid_career):not(.new_grad_top):not(.mid_career_top) .he
 }
 
 .vision_list_center h2 {
-    line-height: 40px;
+    line-height: 26px;
 }
 
 .vision_list_right {
@@ -4903,6 +4903,7 @@ body:not(.new_grad):not(.mid_career):not(.new_grad_top):not(.mid_career_top) .he
 
 .strengths_middle_text p {
     padding-bottom: 15px;
+    line-height: 1.5;
 }
 
 .mid_career .strengths_middle_text p,
@@ -6289,5 +6290,36 @@ span.mwform-zip-field {
 
     .mwform-checkbox-field {
         padding-top: 24px;
+    }
+}
+
+/* 20220929_追加コード */
+@media (min-width: 1000px) {
+    .header-scroll {
+        background: #004779d1;
+    }
+}
+
+@media (max-width: 1001px) {
+    .sp-pt24 {
+        padding-top: 24px;
+    }
+
+    .sp-pb24 {
+        padding-bottom: 24px;
+    }
+
+    .vision_list_center h2 {
+        line-height: 26px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+
+    .font-size-mobile-normal {
+        font-size: 16px;
+    }
+
+    .simple_heading {
+        line-height: 1.5;
     }
 }
